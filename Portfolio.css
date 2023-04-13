@@ -1,0 +1,176 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to bottom, #14394c, #000000);
+  background-repeat: no-repeat;
+  color: #ffffff;
+  overflow: hidden;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.sidebar {
+  flex: 0 0 250px;
+}
+
+.sidebar-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #f8f8f8;
+}
+
+.avatar-circle {
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.info-content {
+  text-align: center;
+}
+
+.name {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0;
+  background-color: transparent;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0;
+  color: #ffffff;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.icon {
+  flex: 0 0 30px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #999;
+}
+
+.contact-title {
+  font-size: 14px;
+  margin: 0;
+  color: #ffffff;
+}
+
+.contact-link {
+  font-size: 14px;
+  margin: 0;
+  color: #fff5f5;
+  text-decoration: none;
+}
+
+.separator {
+  height: 1px;
+  background-color: #d1c9c9;
+  margin: 10px 10;
+}
+
+/* Main content styles */
+.main-content {
+  flex: 1;
+  padding-left: 50px;
+}
+
+.article-title {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0 0 20px 0;
+}
+
+.about-text {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.service-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0 0 20px 0;
+}
+
+.service-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.service-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.service-icon-box {
+  flex: 0 0 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+  background-color: #6f6969;
+  border-radius: 10px;
+  height: 50px;
+  width: 50px;
+}
+
+.service-item-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.service-item-text {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.service-item:hover {
+  background-color: #0e3e4c;
+  border-radius: 60rem;
+  }
+
+
+.avatar-circle {
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 10px;
+  animation-name: pulse;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+
